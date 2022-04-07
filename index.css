@@ -1,20 +1,26 @@
 body
 {
-	background-color: black;
+	background-color: white;
 }
 
 h1
 {
-	color: red;
-	text-align: left;
 	font-family: helvetica;
 	font-size: 24px;
+	color: red;
+
+	text-align: left;
+	margin-left: 80px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 p
 {
-	color: red;
-	text-align: left;
 	font-family: helvetica;
 	font-size: 12px;
+	color: black;
+
+	text-align: left;
+  	margin-left: 80px;
 }
