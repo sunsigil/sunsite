@@ -1,6 +1,10 @@
 body
 {
 	background-color: white;
+
+	text-align: left;
+	margin-left: 80px;
+	margin-right: 80px;
 }
 
 h1
@@ -8,9 +12,6 @@ h1
 	font-family: helvetica;
 	font-size: 24px;
 	color: red;
-
-	text-align: left;
-	margin-left: 80px;
 }
 
 h2
@@ -18,9 +19,6 @@ h2
 	font-family: helvetica;
 	font-size: 20px;
 	color: black;
-
-	text-align: left;
-	margin-left: 80px;
 }
 
 p
@@ -28,9 +26,6 @@ p
 	font-family: helvetica;
 	font-size: 12px;
 	color: black;
-
-	text-align: left;
-  	margin-left: 80px;
 }
 
 a
@@ -38,20 +33,9 @@ a
 	font-family: helvetica;
 	font-size: 20px;
 	color: black;
-
-	text-align: left;
-  	margin-left: 80px;
 }
 
 hr
 {
 	border-top: 5px solid red;
-
-	margin-left: 80px;
-	margin-right: 80px;
-}
-
-iframe
-{
-	margin-left: 80px;
 }
