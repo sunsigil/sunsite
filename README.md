@@ -1,2 +1,2 @@
 # sunsite
-My site
+My personal website
