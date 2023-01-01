@@ -30,11 +30,6 @@ hr
 	border-top: 5px solid red;
 }
 
-p
-{
-	font-size: 12px;
-}
-
 a
 {
 	font-size: 20px;
@@ -46,11 +41,11 @@ a
 
 div.gallery
 {
-	margin-top: 5px;
-	margin-right: 5px;
+	padding: 5px;
+	margin: 5px;
 	border: 2px solid red;
+	height: auto;
 	float: left;
-	height: 240px;
 }
 
 div.gallery:hover
@@ -60,7 +55,7 @@ div.gallery:hover
 
 div.gallery img
 {
-	height: 100%;
+	height: 240px;
 	width: auto;	
 }
 

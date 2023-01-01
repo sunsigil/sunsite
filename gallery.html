@@ -12,20 +12,78 @@
 		<h1 class="title"><a class="title" href="index.html">SUNSITE</a> : GALLERY</h1>
 		<hr>
 
+		<h2>SOFTWARE RASTERIZER</h2>
+		<p>
+		A polygon-rasterization renderer written in standard C.
+		All of the calculations that go into rendering are done via my personal linear algebra libary.
+		The loading of meshes and drawing of frames is done via my personal OBJ (Waveform) and BMP libraries.
+		This project is still in-progress, and I am actively working on it.
+		I referenced Dmitry Sokolov's TinyRenderer pages to get the program to its current state.
+		</p>
 		<div class="gallery">
-			<a href="img/dq_triang_1.png">
-				<img src="img/dq_triang_1.png" alt="A delone triangulation of 2D points">
-			</a>
+			<a href="img/rast_head.bmp"><img src="img/rast_head.bmp" alt="A head, rendered in perspective with flat shading and wireframe overlay"></a>
+			<a href="img/rast_torus.bmp"><img src="img/rast_torus.bmp" alt="A torus, coloured strangely due to bugs in the renderer"></a>
+			<a href="img/rast_cube.bmp"><img src="img/rast_cube.bmp" alt="A cube rendered in perspective with an orthographic wireframe overlay"></a>
+			<a href="img/rast_sponza.bmp"><img src="img/rast_sponza.bmp" alt="An orthographic wireframe view of the sponza atrium"></a>
+			<a href="img/rast_tri.bmp"><img src="img/rast_tri.bmp" alt="The typical triangle, rasterized and coloured in RGB via barycentric coordinates"></a>
 		</div>
+		<br style="clear: both">
+
+		<h2>ECS ENGINE WITH OPENGL</h2>
+		<p>
+		An old attempt at an ECS-architecture engine. Mesh and texture importing, OpenGL/GLSL rendering.
+		Interactibility and basic kinematic physics via entities, components and systems.
+		I have dropped this project, but I plan on starting up something similar soon.
+		</p>
 		<div class="gallery">
-			<a href="img/dq_rtree_1.png">
-				<img src="img/dq_rtree_1.png" alt="Debug output of a level's RTree">
-			</a>
+			<a href="img/gl_pattern.png.png"><img src="img/gl_pattern.png" alt="TBD"></a>
+			<a href="img/gl_sponza.png"><img src="img/gl_sponza.png" alt="TBD"></a>
+			<a href="img/gl_cow.png.png"><img src="img/gl_cow.png" alt="TBD"></a>
 		</div>
+		<br style="clear: both">
+
+		<h2>BMP TOOLS AND TOYS</h2>
+		<p>
+		To test my BMP library, I wrote a small series of image generation and processing programs.
+		Shown here are images from my Kuwahara filtering, Floyd-Steinberg dithering, and Mandelbrot set rendering programs.
+		I referenced Wikipedia articles to write these programs.
+		As I hear of more interesting image processing techniques, I will likely continue to write programs like these.
+		</p>
 		<div class="gallery">
-			<a href="img/mandelbrot.bmp">
-				<img src="img/mandelbrot.bmp" alt="Mandelbrot set visualization using my BMP image tools">
-			</a>
+			<a href="img/kuwahara.bmp"><img src="img/kuwahara.bmp" alt="TBD"></a>
+			<a href="img/dither.bmp"><img src="img/dither.bmp" alt="TBD"></a>
+			<a href="img/mandelbrot.bmp"><img src="img/mandelbrot.bmp" alt="TBD"></a>
+		</div>
+		<br style="clear: both">
+
+		<h2>DEVIL QUELLER: DELONE TRIANGULATION AND R-TREES</h2>
+		<p>
+		My largest current hobby project is a 3D FPS called Devil Queller.
+		I am building it in Unity, but I don't let that stop me from doing lots of experimentation and wheel-reinvention.
+		Shortly after getting some basic FPS gameplay going, I began reading about navmeshing to see if I could generate navmeshes for my levels.
+		I played around with spatial indexing via R-trees and mesh generation via Delone triangulation.
+		In the end, I was pulled away from Devil Queller by schoolwork.
+		While I do not have a schedule for completing this game like I usually do, it remains in-progress and I chip away at it when I have the time.
+		</P>
+		<div class="gallery">
+			<a href="img/rtree_2.png"><img src="img/rtree_2.png" alt="3D debug output of a simple 3D level's R-Tree"></a>
+			<a href="img/delone.png"><img src="img/delone.png" alt="A delone triangulation of 2D points"></a>
+			<a href="img/rtree.png"><img src="img/rtree.png" alt="2D debug output of a 3D level's R-Tree"></a>
+		</div>
+		<br style="clear: both">
+
+		<h2>CATALOGUE</h2>
+		<p>
+		Catalogue is a 2D game that I developed solo for my school's game development club.
+		In addition to doing all of the design and programming, I made all of the art with ink and paper.
+		It's a very imperfect game, but I hope it is an interesting and sometimes delightful one.
+		</p>
+		<div class="gallery">
+			<a href="img/cata_cover.png"><img src="img/cata_cover.png" alt="Catalogue's cover art"></a>
+			<a href="img/cata_combat.png"><img src="img/cata_combat.png" alt="TBD"></a>
+			<a href="img/cata_church.png"><img src="img/cata_church.png" alt="TBD"></a>
+			<a href="img/cata_wip.png"><img src="img/cata_wip.png" alt="TBD"></a>
+			<a href="img/cata_cards.png"><img src="img/cata_cards.png" alt="TBD"></a>
 		</div>
 	</body>
 </html>
