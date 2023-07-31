@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html class="no-js" lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="index.css">
+		<title>Sunsite : Projects</title>
+	</head>
+
+	<body>
+		<hr>
+		<h1 class="title"><a class="title" href="index.html">SUNSITE</a> : PROJECTS</h1>
+		<hr>
+
+		<h2 id="bmp-tools">BMP TOOLS</h2>
+		<p>
+		For projects in computer graphics, working with at least one common image format is a necessity.
+		BMP images are widely supported and are dead simple, so they are my image format of choice.
+		However, many existing libraries for working BMPs struck me as more complex and high-level than I required.
+		I wanted the option to work with arbitrary BMPs using any number of common BMP features, and I wanted to do so with very straightforward code.
+		In response, I wrote a small and simple library in standard C for reading, manipulating, and writing BMP images.
+		This library is used by many of my current graphics projects.
+		</p>
+		<br>
+
+		<h2 id="rasterizer">SOFTWARE RASTERIZING RENDERER</h2>
+		<a href="gallery.html#rasterizer">GALLERY</a>
+		<p>
+		I am writing a polygon rasterizing renderer "from-scratch" to better understand the fundamentals of the technique.
+		The code is all in standard C, and many of the concepts implemented are based on those found in popular graphics and game engine development books.
+		Though some game engine programming practices are employed, the render is not a real-time renderer.
+		It renders to BMP images using my BMP image library, which is also used to read images for texturing and the like.
+		Naturally, this project involves a great deal of linear algebra, and I am writing a small linear algebra library which contains only what is needed.
+		Geometry to be rendered is fetched by a tiny library I wrote whose only purpose is to parse OBJ files into something resembling VBOs.
+		The basic features of the renderer are perspective projection, rasterization, texture mapping, Blinn-Phong shading, cubemap skyboxing, and common culling techniques.
+		</p>
+		<br>
+		
+		<h2 id="ivlab-sim">IV LAB CANOE CARVING SIMULATION</h2>
+		<p>
+		My current project at the University of Minnesota's Interactive Visualization Lab is the design and development of a canoe carving simulation.
+		The simulation's purpose is to give expert indigenous American craftsmen a platform to share their knowledge of canoe carving.
+		My current approach is a voxel-based one where a carving tool is manipulated like a cursor to subtract wood voxels from a generated mass of wood until the desired form emerges.
+		The simulation must be performant on low-end hardware so that it is accessible to our target audience outside of the realm of of computer science academia.
+		The voxelized nature of the simulation is also intended to improve accessibility by young audiences who may be familiar with games of a similar type.
+		I am developing the simulation in Unity with C# and CG, as most of the lab's real-time projects are in Unity.
+		Currently the path forward for the simulation is faster, smoother, more accurate voxelization as well as greater camera and carving tool control for the user. 
+		</p>
+		<br>
+
+		<h2 id="catalogue">CATALOGUE, HAND-DRAWN ART AND ANIMATED SYSTEMS</h2>
+		<a href="gallery.html#catalogue">GALLERY</a>
+		<p>
+		Catalogue is a 2D action and exploration game that I developed and released solo. Almost 100% of its art was done by me with ink and paper, then scanned and broken down into components.
+		To bring my hand-drawn components to life, I developed quite a few utilities for mathematical animation of 2D graphics. These utilities are largely based on state machines, timelines, and
+		runtime capture of "keyframes" which can be interpolated between on-demand. On the less graphical side, Catalogue also prompted me to refine my approach to component-based game architecture.
+		My reusable systems for priority-sorted input handling, UI construction and display, and the interleaving of gameplay events with animation events all improved a great deal.
+		Catalogue, like most of my released games, is available on itch.io. It was also demoed on an IGDA Twin Cities live stream.
+		</p>
+		<br>
+
+		<h2 id="regex">REGEX-TO-NFA PARSER AND EVALUATOR</h2>
+		<p>
+		After taking a class on formal languages and automata theory, I developed a stronger interest in regex.
+		To indulge this interest, I wrote a small tool which takes an infix regex string and an input string and uses an NFA-based approach to determine if the input matches the regex.
+		An infix regex string is parsed into an equivalent NFA using a variation of the shunting-yard algorithm with regex operator precedence rules.
+		An alphanumeric operand read causes an atomic NFA for said operand to be pushed to the evaluation stack.
+		An n-ary operator read causes n NFAs to be popped from the evaluation stack, subjected to the appropriate NFA operation, and the result is then pushed to the evaluation stack.
+		The single NFA on the stack at the end of this process is the one corresponding to the regex string, which will accept or reject the input string.
+		For debugging and for fun, this NFA is also converted into DOT code that can be rendered by GraphViz.
+		The operations currently supported by the tool are union, concatenation, and kleene star.
+		My implementation of each is based on definitions in David Sipser's 'Introduction to the Theory of Computation'.
+		I intend to continue working on the tool, albeit at a very relaxed pace. For example, I'd like to implement NFA-to-DFA construction.
+		</p>
+		<br>
+
+		<h2 id="devil-queller">DEVIL QUELLER, DELONE TRIANGULATION AND R-TREES</h2>
+		<a href="gallery.html#devil-queller">GALLERY</a>
+		<p>
+		Devil Queller is a first-person shooter that I developed for a number of months before I had to step back and focus on school.
+		Its graphical style is inspired by new and old games which embrace certain antiquated techniques and artefacts to enhance their visuals.
+		Highly geometric low-poly meshes, affine texture mapping, vertex jitter, dithered transparency, and reduced anti-aliasing measures are some examples.
+		Besides mixing stylish graphical techniques, I also wanted to use Devil Queller to get into spatial partitioning and triangulation.
+		Navmeshing has long piqued my interest, and I tried my hand at using R-trees and Delone triangulation to partition levels and create navmeshes of their walkable areas.
+		I did not complete this portion of the project by the time I had to set it down, but I did get far enough to see some personally exciting results.
+		</p>
+		<br>
+
+		<h2 id="ecs-opengl">ECS ARCHITECTURE WITH OPENGL</h2>
+		<a href="gallery.html#ecs-opengl">GALLERY</a>
+		<p>
+		I phase in and out of working directly with graphics APIs like OpenGL, Metal, and Vulkan for personal projects.
+		Back in freshman year, I decided to write something in OpenGL with an Entity-Component-System architecture.
+		It was a blast to work on, although all it did was render a scene and allow the user to walk around it.
+		I've been experimenting more with Metal and Vulkan lately, but I want to use both OpenGL and the ECS architecture for future projects.
+		</p>
+		<br>
+		
+		<h2 id="cdes">SCHOOL ART AND DESIGN</h2>
+		<a href="gallery.html#cdes">GALLERY</a>
+		<p>
+		My minor is in interdisciplinary design, so I take art and design courses in addition to computer science courses every semester.
+		I have worked with plenty of media from laser-cut paper to traditional letterpress, but I frequently turn to charcoal, graphite, and ink on various papers.
+		For many of my courses, I work with digital art and design programs from the Adobe creative suite. Illustrator, InDesign, and Photoshop primarily.
+		Some of my favourite projects I've done are figure drawings of in-studio models, a record jacket and sleeve, and a collection of short stories that I typeset and bound.
+		</p>
+		<br>
+		
+		<h2 id="processing">IMAGE PROCESSING DEMOS / PROCESSING CHAOS GAMES</h2>
+		<a href="gallery.html#processing">GALLERY</a>
+		<p>
+		To test and display the working of my BMP image library, I implemented a number of popular image processing and generation algorithms.
+		Among them are Kuwahara filtering, Floyd-Steinberg dithering, and the interpretive rendering of complex numbers in the Mandelbrot set.
+		Just for fun, I also used the Processing language to write a few "chaos games" which generate images of fractals using constrained stochastic placement of points.
+		</p>
+		<br>
+	</body>
+</html>
