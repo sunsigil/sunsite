@@ -28,7 +28,7 @@
 		<p>
 		I am writing a polygon rasterizing renderer "from-scratch" to better understand the fundamentals of the technique.
 		The code is all in standard C, and many of the concepts implemented are based on those found in popular graphics and game engine development books.
-		Though some game engine programming practices are employed, the render is not a real-time renderer.
+		Though some game engine programming practices are employed, the renderer is not a real-time renderer.
 		It renders to BMP images using my BMP image library, which is also used to read images for texturing and the like.
 		Naturally, this project involves a great deal of linear algebra, and I am writing a small linear algebra library which contains only what is needed.
 		Geometry to be rendered is fetched by a tiny library I wrote whose only purpose is to parse OBJ files into something resembling VBOs.
@@ -63,7 +63,8 @@
 		<p>
 		After taking a class on formal languages and automata theory, I developed a stronger interest in regex.
 		To indulge this interest, I wrote a small tool which takes an infix regex string and an input string and uses an NFA-based approach to determine if the input matches the regex.
-		An infix regex string is parsed into an equivalent NFA using a variation of the shunting-yard algorithm with regex operator precedence rules.
+		An infix regex string is converted to its postfix equivalent using a variation of the shunting-yard algorithm with regex operator precedence rules.
+		The postfix string is then parsed to produce its NFA equivalent.
 		An alphanumeric operand read causes an atomic NFA for said operand to be pushed to the evaluation stack.
 		An n-ary operator read causes n NFAs to be popped from the evaluation stack, subjected to the appropriate NFA operation, and the result is then pushed to the evaluation stack.
 		The single NFA on the stack at the end of this process is the one corresponding to the regex string, which will accept or reject the input string.
