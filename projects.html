@@ -12,17 +12,6 @@
 		<h1 class="title"><a class="title" href="index.html">SUNSITE</a> : PROJECTS</h1>
 		<hr>
 
-		<h2 id="bmp-tools">BMP TOOLS</h2>
-		<p>
-		For projects in computer graphics, working with at least one common image format is a necessity.
-		BMP images are widely supported and are dead simple, so they are my image format of choice.
-		However, many existing libraries for working BMPs struck me as more complex and high-level than I required.
-		I wanted the option to work with arbitrary BMPs using any number of common BMP features, and I wanted to do so with very straightforward code.
-		In response, I wrote a small and simple library in standard C for reading, manipulating, and writing BMP images.
-		This library is used by many of my current graphics projects.
-		</p>
-		<br>
-
 		<h2 id="rasterizer">SOFTWARE RASTERIZING RENDERER</h2>
 		<a href="gallery.html#rasterizer">GALLERY</a>
 		<p>
@@ -33,6 +22,13 @@
 		Naturally, this project involves a great deal of linear algebra, and I am writing a small linear algebra library which contains only what is needed.
 		Geometry to be rendered is fetched by a tiny library I wrote whose only purpose is to parse OBJ files into something resembling VBOs.
 		The basic features of the renderer are perspective projection, rasterization, texture mapping, Blinn-Phong shading, cubemap skyboxing, and common culling techniques.
+		</p>
+		<br>
+		
+		<h2 id="raytracer">SOFTWARE RAY TRACER</h2>
+		<p>
+		For CSCI 5607: Fundamentals of Computer Graphics I am writing a ray tracing renderer from-scratch in standard C/C++.
+		It's currently in the early stages and simply renders coloured spheres with diffuse lighting and specular highlights.
 		</p>
 		<br>
 		
@@ -56,6 +52,25 @@
 		runtime capture of "keyframes" which can be interpolated between on-demand. On the less graphical side, Catalogue also prompted me to refine my approach to component-based game architecture.
 		My reusable systems for priority-sorted input handling, UI construction and display, and the interleaving of gameplay events with animation events all improved a great deal.
 		Catalogue, like most of my released games, is available on itch.io. It was also demoed on an IGDA Twin Cities live stream.
+		</p>
+		<br>
+		
+		<h2 id"2d-collision">2D STATIC COLLISION</h2>
+		For CSCI 5611: Animation and Motion Planning in Games my first proper assignment was to write a system which would detect and visualize collisions between thousands of 2D primitives.
+		This is currently a simple no-frills project; it lacks even spatial partitioning methods though I plan to add them. It takes ~300 milliseconds to test ~15000 primitives.
+		As the course goes on, I will tackle more and more ambitious projects, but as of now my plan is simply to incorporate BVH spatial partitioning into the collision detection simulation.
+		The project over-all is written in standard C/C++, and its visualizations are done with OpenGL.
+		</p>
+		<br>
+
+		<h2 id="bmp-tools">BMP TOOLS</h2>
+		<p>
+		For projects in computer graphics, working with at least one common image format is a necessity.
+		BMP images are widely supported and are dead simple, so they are my image format of choice.
+		However, many existing libraries for working BMPs struck me as more complex and high-level than I required.
+		I wanted the option to work with arbitrary BMPs using any number of common BMP features, and I wanted to do so with very straightforward code.
+		In response, I wrote a small and simple library in standard C for reading, manipulating, and writing BMP images.
+		This library is used by many of my current graphics projects.
 		</p>
 		<br>
 
