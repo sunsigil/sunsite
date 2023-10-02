@@ -32,6 +32,15 @@
 		</p>
 		<br>
 		
+		<h2 id"2d-collision">REAL-TIME COLLISION SIMULATION</h2>
+		<p>
+		For CSCI 5611: Animation and Planning in Games I wrote a small pinball-like toy in C/C++ with OpenGL and GLM to demonstrate my real-time collision detection and resolution system.
+		The toy currently implements circular and AABB colliders, with physically sensible interaction between both types. Levels full of obstacles, described in CSV files, can be loaded
+		into the toy on the fly via its UI. Once a level is loaded, the user can fire balls at the present obstacles to witness how gravity and collision affect them. Motion, collision,
+		and rendering are all implemented via an Entity-Component-System architecture for the sake of speed and simplicity.
+		</p>
+		<br>
+		
 		<h2 id="ivlab-sim">IV LAB CANOE CARVING SIMULATION</h2>
 		<p>
 		My current project at the University of Minnesota's Interactive Visualization Lab is the design and development of a canoe carving simulation.
@@ -52,14 +61,6 @@
 		runtime capture of "keyframes" which can be interpolated between on-demand. On the less graphical side, Catalogue also prompted me to refine my approach to component-based game architecture.
 		My reusable systems for priority-sorted input handling, UI construction and display, and the interleaving of gameplay events with animation events all improved a great deal.
 		Catalogue, like most of my released games, is available on itch.io. It was also demoed on an IGDA Twin Cities live stream.
-		</p>
-		<br>
-		
-		<h2 id"2d-collision">2D STATIC COLLISION</h2>
-		For CSCI 5611: Animation and Motion Planning in Games my first proper assignment was to write a system which would detect and visualize collisions between thousands of 2D primitives.
-		This is currently a simple no-frills project; it lacks even spatial partitioning methods though I plan to add them. It takes ~300 milliseconds to test ~15000 primitives.
-		As the course goes on, I will tackle more and more ambitious projects, but as of now my plan is simply to incorporate BVH spatial partitioning into the collision detection simulation.
-		The project over-all is written in standard C/C++, and its visualizations are done with OpenGL.
 		</p>
 		<br>
 
