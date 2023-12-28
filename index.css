@@ -46,8 +46,8 @@ a
 
 div.gallery
 {
-	float: left;
-	
+	display: inline-block;
+
 	padding: 5px;
 	margin: 5px;
 	
@@ -65,4 +65,13 @@ div.gallery img:hover
 {
 	width: 516px;
 }
+
+div.gallery img.thumbnail
+{
+	max-width: 256px;
+	height: 128px;
+	width: auto;
+}
+
+div.gallery img.thumbnail:hover {}
 
