@@ -46,34 +46,23 @@ a
 
 div.gallery
 {
+	float: left;
+	
 	padding: 5px;
 	margin: 5px;
+	
 	border: 2px solid red;
-	height: auto;
-	float: left;
 }
 
-div.gallery:hover
-{
-	border: 3px solid red;
-}
 
 div.gallery img
 {
-	height: 240px;
-	width: auto;	
+	width: 512px;
+	height: auto;
 }
 
-/* DEFAULT MEDIA */
-
-img
+div.gallery img:hover
 {
-	width:100%;
-	max-width:50vw
+	width: 516px;
 }
 
-video
-{
-	width:100%;
-	max-width:50vw
-}
