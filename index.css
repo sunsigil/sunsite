@@ -70,3 +70,8 @@ div.gallery img.thumbnail
 	width: auto;
 }
 
+img
+{
+	max-width: 256px;
+}
+
