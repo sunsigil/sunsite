@@ -8,38 +8,42 @@ body
 	font-family: helvetica;
 
 	text-align: left;
-	margin-left: 2in;
-	margin-right: 2in;
-	margin-top: 0.25in;
-	margin-bottom: 2in;
+	margin: 0.5in;
+	margin-top: 1in;
+	margin-right: 4in;
 }
 
 .title
 {
-	font-size: 24px;
+	font-size: 48pt;
 	font-weight: bold;
-	color: red;
 	text-decoration: none;
+	margin-bottom: 8pt;
 }
 
 h2
 {
-	font-size: 20px;
+	font-size: 24pt;
+	margin-bottom: 2pt;
 }
 
 h3
 {
-	font-size: 16px;
+	font-size: 16pt;
+	margin-bottom: 2pt;
 }
 
-hr
+.line
 {
-	border-top: 5px solid red;
+  	height: 0;
+  	border: 2pt solid red;
+	border-radius: 2pt;
+	margin-bottom: 16pt;
 }
 
 a
 {
-	font-size: 20px;
+	font-size: 14pt;
 	font-weight: normal;
 	color: black; 
 }
@@ -49,23 +53,14 @@ a
 div.gallery
 {
 	display: inline-block;
-
 	padding: 5px;
-	margin: 5px;
-	
-	border: 2px solid red;
+	border: 1pt solid red;
 }
-
 
 div.gallery img
 {
 	width: 512px;
 	height: auto;
-}
-
-div.gallery img:hover
-{
-	width: 516px;
 }
 
 div.gallery img.thumbnail
@@ -74,6 +69,4 @@ div.gallery img.thumbnail
 	height: 128px;
 	width: auto;
 }
-
-div.gallery img.thumbnail:hover {}
 
