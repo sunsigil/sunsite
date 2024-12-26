@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1117 1060" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(1,0,0,1,-3986.04,-2684.41)">
+        <g transform="matrix(1,0,0,1,-93.103,-99.2587)">
+            <g>
+                <g transform="matrix(2.25258,0,0,2.25258,-4608.89,1852.48)">
+                    <g>
+                        <g transform="matrix(0.807637,0,0,0.807637,895.028,-694.652)">
+                            <path d="M3695.18,1716.81C3690.49,1696.48 3688,1675.31 3688,1653.56C3688,1537.13 3759.17,1437.19 3860.34,1394.9L3860.34,1551.66L3695.18,1716.81ZM4070.4,1392.6C4143,1421.08 4200.87,1479 4229.28,1551.64L4070.4,1551.64L4070.4,1392.6ZM4226.76,1761.7C4184.41,1862.73 4084.54,1933.77 3968.21,1933.77C3946.61,1933.77 3925.57,1931.32 3905.37,1926.68L4070.38,1761.68L4070.38,1761.7L4226.76,1761.7ZM4070.38,1761.68L3860.36,1551.66L4070.38,1551.66L4070.38,1761.68Z" style="stroke:black;stroke-opacity:0;stroke-width:22.9px;"/>
+                        </g>
+                    </g>
+                </g>
+                <g transform="matrix(1,0,0,1,-1680.68,1850.84)">
+                    <text x="5791.73px" y="1696.74px" style="font-family:'Helvetica-Bold', 'Helvetica';font-weight:700;font-size:166.667px;">.P<tspan x="5936.91px 6057.27px " y="1696.74px 1696.74px ">AG</tspan>ES</text>
+                    <g transform="matrix(166.667,0,0,166.667,6180.73,1863.4)">
+                    </g>
+                    <text x="5791.73px" y="1863.4px" style="font-family:'Helvetica-Bold', 'Helvetica';font-weight:700;font-size:166.667px;">.DEV</text>
+                </g>
+                <g transform="matrix(1,0,0,1,-1350.17,1328.5)">
+                    <g transform="matrix(166.667,0,0,166.667,6143.62,1696.74)">
+                    </g>
+                    <text x="5791.73px" y="1696.74px" style="font-family:'Helvetica-Bold', 'Helvetica';font-weight:700;font-size:166.667px;">SUN</text>
+                </g>
+            </g>
+            <g transform="matrix(1,0,0,1,-960.069,1669.16)">
+                <g transform="matrix(166.667,0,0,166.667,6162.17,1696.74)">
+                </g>
+                <text x="5791.73px" y="1696.74px" style="font-family:'Helvetica-Bold', 'Helvetica';font-weight:700;font-size:166.667px;">SITE</text>
+            </g>
+        </g>
+    </g>
+</svg>
