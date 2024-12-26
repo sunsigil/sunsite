@@ -48,6 +48,11 @@ a
 	color: black; 
 }
 
+img.logo
+{
+	max-height: 256px;
+}
+
 /* IMG GALLERY */
 
 div.gallery
@@ -68,10 +73,5 @@ div.gallery img.thumbnail
 	max-width: 256px;
 	height: 128px;
 	width: auto;
-}
-
-img
-{
-	max-width: 256px;
 }
 
