@@ -13,14 +13,6 @@ body
 	margin-right: 2in;
 }
 
-.title
-{
-	font-size: 48pt;
-	font-weight: bold;
-	text-decoration: none;
-	margin-bottom: 8pt;
-}
-
 h2
 {
 	font-size: 24pt;
@@ -31,6 +23,15 @@ h3
 {
 	font-size: 16pt;
 	margin-bottom: 2pt;
+}
+
+.title
+{
+	font-size: 48pt;
+	font-weight: bold;
+	text-decoration: none;
+	color: black;
+	margin-bottom: 8pt;
 }
 
 .line
@@ -44,8 +45,15 @@ h3
 a
 {
 	font-size: 14pt;
-	font-weight: normal;
-	color: black; 
+	color: rgb(92, 92, 92);
+	text-decoration: none;
+	line-height: 16pt;
+}
+
+a:not(.title):hover
+{
+	font-size: 16pt;
+	color: black;
 }
 
 img.logo
