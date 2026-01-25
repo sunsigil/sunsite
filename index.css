@@ -1,85 +1,76 @@
 /* BASICS */
 
-body
-{
-	background-color: white;
-	color: black;
-
-	font-family: helvetica;
-
-	text-align: left;
-	margin: 0.5in;
-	margin-top: 1in;
-	margin-right: 2in;
+html {
+  font-size: 62.5%;
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
 }
 
-h2
-{
-	font-size: 24pt;
-	margin-bottom: 2pt;
+body {
+  font-size: 1.8rem;
+  line-height: 1.618;
+  max-width: 52em;
+  margin: auto;
+  color: #000000;
+  background-color: #f9f9f9;
+  padding: 13px;
 }
 
-h3
-{
-	font-size: 16pt;
-	margin-bottom: 2pt;
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.1;
+  font-weight: 700;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  -ms-word-break: break-all;
+  word-break: break-word;
 }
 
-.title
-{
-	font-size: 48pt;
-	font-weight: bold;
-	text-decoration: none;
-	color: black;
-	margin-bottom: 8pt;
+h1 {
+  font-size: 2.35em;
 }
 
-.line
-{
-  	height: 0;
-  	border: 2pt solid red;
-	border-radius: 2pt;
-	margin-bottom: 16pt;
+h2 {
+  font-size: 2em;
 }
 
-a
-{
-	font-size: 14pt;
-	color: rgb(92, 92, 92);
-	text-decoration: none;
-	line-height: 16pt;
+h3 {
+  font-size: 1.75em;
 }
 
-a:not(.title):hover
-{
-	font-size: 16pt;
-	color: black;
+h4 {
+  font-size: 1.5em;
 }
 
-img.logo
-{
-	max-width: 256px;
+h5 {
+  font-size: 1.25em;
 }
 
-/* IMG GALLERY */
-
-div.gallery
-{
-	display: inline-block;
-	padding: 5px;
-	border: 1pt solid red;
+h6 {
+  font-size: 1em;
 }
 
-div.gallery img
-{
-	width: 512px;
-	height: auto;
+p {
+  margin-top: 0px;
+  margin-bottom: 2.5rem;
 }
 
-div.gallery img.thumbnail
-{
-	max-width: 256px;
-	height: 128px;
-	width: auto;
+small, sub, sup {
+  font-size: 75%;
 }
 
+hr {
+  border-color: #1d7484;
+}
+
+a {
+  text-decoration: none;
+  color: #878787;
+  border-bottom: 2px solid #878787;
+}
+a:visited {
+  color: #323232;
+}
+a:hover {
+	color: #8e0000;
+}
