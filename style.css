@@ -20,15 +20,13 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 1.5rem;
   overflow-wrap: break-word;
   word-wrap: break-word;
-  -ms-word-break: break-all;
   word-break: break-word;
 }
-h1 { font-size: 2.35em; }
-h2 { font-size: 2em; }
-h3 { font-size: 1.75em; }
-h4 { font-size: 1.5em; }
-h5 { font-size: 1.25em; }
-h6 { font-size: 1em; }
+h1 { font-size: 2em; }
+h2 { font-size: 1.75em; }
+h3 { font-size: 1.5em; }
+h4 { font-size: 1.25em; }
+h5 { font-size: 1em; }
 
 p  {
   margin-top: 0px;
@@ -52,16 +50,29 @@ a:hover {
 	color: #c30000;
 }
 
+.title_bar {
+	height: 10vh;
+	border-bottom: 1.5px solid #000000;
+	margin-bottom: 4rem;
+}
+.title_bar a {
+	border-bottom: none;
+	font-size: 2.5em;
+	font-weight: 75;
+	vertical-align: middle;
+}
 
 .gallery_grid {
 	display: flex;
 	flex-wrap: wrap;
-	padding-left: 0px;
+
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
 }
 .gallery_grid li {
 	height: 20vh;
 	flex-grow: 1;
-	list-style: none;
 }
 .gallery_grid img {
 	max-height: 100%;
