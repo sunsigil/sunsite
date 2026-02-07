@@ -51,9 +51,9 @@ a:hover {
 }
 
 .title_bar {
-	height: 10vh;
+	height: 5em;
 	border-bottom: 1.5px solid #000000;
-	margin-bottom: 4rem;
+	margin-bottom: 3em;
 }
 .title_bar a {
 	border-bottom: none;
